@@ -1,14 +1,14 @@
-Sentiment Analysis with Naïve Bayes Classifier using Apache Spark
+#Sentiment Analysis with Naïve Bayes Classifier using Apache Spark
 
-📌 Overview
+#Overview
 
 This project focuses on big data analysis by implementing a Naïve Bayes classifier using Apache Spark. The main objective is to classify user reviews from Amazon based on sentiment analysis and Natural Language Processing (NLP) techniques.
 
-📜 Description
+#Description
 
 The dataset consists of customer reviews from Amazon, where we preprocess textual data and apply sentiment classification to predict user ratings. The implementation is written in Python and leverages Apache Spark MLlib for scalable machine learning.
 
-🔥 Features
+#Features
 
 Big Data Processing: Efficient handling of large-scale datasets with Apache Spark.
 
@@ -20,7 +20,7 @@ Sentiment Analysis: Understanding user opinions through classification.
 
 Scalability: Optimized for execution in a distributed environment.
 
-🛠 Technologies Used
+#Technologies Used
 
 Apache Spark
 
@@ -30,7 +30,7 @@ Machine Learning (Naïve Bayes Classification)
 
 Jupyter Notebook (for analysis and visualization)
 
-🚀 Installation & Setup
+#Installation & Setup
 
 Prerequisites
 
@@ -46,7 +46,7 @@ Required Python libraries:
 
 pip install pyspark nltk pandas numpy
 
-Running the Project
+#Running the Project
 
 Clone the repository:
 
@@ -61,7 +61,7 @@ Run the Python script:
 
 python sentiment_analysis.py
 
-📊 Dataset
+#Dataset
 
 The dataset consists of Amazon user reviews. Preprocessing steps include:
 
