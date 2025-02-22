@@ -50,10 +50,8 @@ Ensure you have the following installed:
    ```
 3. Run the Python script using the following command:
    ```sh
-   ~/spark/bin/spark-submit --py-files /home/ubuntu/ergasia3/python_code.py --conf "spark.local.dir=/storage" \ 
-   --master spark://snf-77056.ok-kno.grnetcloud.net:7077 --executor-memory 8G --driver-memory 4G \ 
-   --executor-cores 4 --num-executors 2 --jars /home/ubuntu/ergasia3/spark-nlp_2.12-5.5.2.jar,/home/ubuntu/ergasia3/aws-java-sdk-bundle-1.11.1026.jar \ 
-   /home/ubuntu/ergasia3/python_code.py
+   spark-submit python_code.py
+
    ```
 
 ##  Dataset
